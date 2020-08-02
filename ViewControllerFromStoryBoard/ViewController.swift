@@ -3,7 +3,7 @@
 //  ViewControllerFromStoryBoard
 //
 //  Created by K S on 8/2/20.
-//  Copyright © 2020 Kilbert Spland. All rights reserved.
+//  Copyright © 2020 K S. All rights reserved.
 //
 
 import UIKit
