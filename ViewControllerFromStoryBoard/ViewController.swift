@@ -18,7 +18,10 @@ class ViewController: UIViewController {
 
     @IBAction  func didTapButton() {
         
-        let vc = SecondViewController()
+        guard  let vc = storyboard?.instantiateViewController(identifier: "second") as? SecondViewController else {
+            print("failed to get vc from storyboard")
+            return
+        }
             present(vc, animated: true)
     }
 
